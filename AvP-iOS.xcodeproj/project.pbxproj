@@ -10,9 +10,10 @@
 		042B895F29A5363100CFE839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B895E29A5363100CFE839 /* Assets.xcassets */; };
 		042B896229A5363100CFE839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B896029A5363100CFE839 /* LaunchScreen.storyboard */; };
 		04D34A0B29A53B4300D5B1A6 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F929A5396000D5B1A6 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.c */; };
+		04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */; };
 		04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F529A5396000D5B1A6 /* SDL2.framework */; };
-		04D34A1729A53DA900D5B1A6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A1629A53DA900D5B1A6 /* main.c */; };
+		04D34A1C29A54B1500D5B1A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A1B29A54B1500D5B1A6 /* main.cpp */; };
+		04D34A1F29A54CC700D5B1A6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D34A1D29A54CC400D5B1A6 /* OpenGLES.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,8 +115,9 @@
 		042B895E29A5363100CFE839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042B896129A5363100CFE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D349E429A5396000D5B1A6 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../SDL2-2.26.3/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
-		04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_uikit_main.c; sourceTree = "<group>"; };
-		04D34A1629A53DA900D5B1A6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDL_uikit_main.cpp; sourceTree = "<group>"; };
+		04D34A1B29A54B1500D5B1A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04D34A1D29A54CC400D5B1A6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */,
+				04D34A1F29A54CC700D5B1A6 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,9 +156,9 @@
 			children = (
 				04D34A1829A5425900D5B1A6 /* AvP */,
 				042B895E29A5363100CFE839 /* Assets.xcassets */,
-				04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.c */,
+				04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */,
 				042B896029A5363100CFE839 /* LaunchScreen.storyboard */,
-				04D34A1629A53DA900D5B1A6 /* main.c */,
+				04D34A1B29A54B1500D5B1A6 /* main.cpp */,
 			);
 			path = "AvP-iOS";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 		04D34A0829A53B2A00D5B1A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04D34A1D29A54CC400D5B1A6 /* OpenGLES.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -348,8 +352,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.c in Sources */,
-				04D34A1729A53DA900D5B1A6 /* main.c in Sources */,
+				04D34A1C29A54B1500D5B1A6 /* main.cpp in Sources */,
+				04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

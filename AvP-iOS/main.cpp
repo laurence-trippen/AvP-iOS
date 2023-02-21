@@ -5,7 +5,7 @@
 //  Created by Laurence Trippen on 21.02.23.
 //
 
-#include <stdbool.h>
+#define GLES_SILENCE_DEPRECATION
 
 #include <OpenGLES/ES2/gl.h>
 #include <OpenGLES/ES2/glext.h>
