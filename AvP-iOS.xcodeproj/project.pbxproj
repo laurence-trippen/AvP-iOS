@@ -7,30 +7,118 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042B895129A5363000CFE839 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B895029A5363000CFE839 /* AppDelegate.m */; };
-		042B895429A5363000CFE839 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B895329A5363000CFE839 /* Renderer.m */; };
-		042B895729A5363000CFE839 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B895629A5363000CFE839 /* GameViewController.m */; };
-		042B895929A5363000CFE839 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 042B895829A5363000CFE839 /* Shaders.metal */; };
-		042B895D29A5363000CFE839 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B895B29A5363000CFE839 /* Main.storyboard */; };
 		042B895F29A5363100CFE839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B895E29A5363100CFE839 /* Assets.xcassets */; };
 		042B896229A5363100CFE839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B896029A5363100CFE839 /* LaunchScreen.storyboard */; };
-		042B896429A5363100CFE839 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 042B896329A5363100CFE839 /* main.m */; };
+		04D34A0B29A53B4300D5B1A6 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F929A5396000D5B1A6 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.c */; };
+		04D34A1329A53C3100D5B1A6 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A1229A53C3100D5B1A6 /* common.c */; };
+		04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F529A5396000D5B1A6 /* SDL2.framework */; };
+		04D34A1729A53DA900D5B1A6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A1629A53DA900D5B1A6 /* main.c */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04D349F229A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF66C0761BA81005FE872;
+			remoteInfo = Framework;
+		};
+		04D349F429A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7D88B5423E2437C00DCD162;
+			remoteInfo = "Framework-iOS";
+		};
+		04D349F629A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7D88D1523E24BED00DCD162;
+			remoteInfo = "Framework-tvOS";
+		};
+		04D349F829A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2D187CF28A5673500D2B4F1;
+			remoteInfo = "xcFramework-iOS";
+		};
+		04D349FA29A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF6B30761BA81005FE872;
+			remoteInfo = "Static Library";
+		};
+		04D349FC29A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7D88E5423E24D3B00DCD162;
+			remoteInfo = "Static Library-iOS";
+		};
+		04D349FE29A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A769B23D23E259AE00872273;
+			remoteInfo = "Static Library-tvOS";
+		};
+		04D34A0029A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB31407717554B71006C0E22;
+			remoteInfo = "Shared Library";
+		};
+		04D34A0229A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A75FCEB323E25AB700529352;
+			remoteInfo = "Shared Library-iOS";
+		};
+		04D34A0429A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A75FD06C23E25AC700529352;
+			remoteInfo = "Shared Library-tvOS";
+		};
+		04D34A0629A5396000D5B1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BECDF6BE0761BA81005FE872;
+			remoteInfo = "Standard DMG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04D34A0C29A53B4300D5B1A6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04D34A0B29A53B4300D5B1A6 /* SDL2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		042B894C29A5363000CFE839 /* AvP-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvP-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		042B894F29A5363000CFE839 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		042B895029A5363000CFE839 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		042B895229A5363000CFE839 /* Renderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Renderer.h; sourceTree = "<group>"; };
-		042B895329A5363000CFE839 /* Renderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Renderer.m; sourceTree = "<group>"; };
-		042B895529A5363000CFE839 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		042B895629A5363000CFE839 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
-		042B895829A5363000CFE839 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
-		042B895A29A5363000CFE839 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
-		042B895C29A5363000CFE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042B894C29A5363000CFE839 /* AvP Classic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvP Classic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042B895E29A5363100CFE839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042B896129A5363100CFE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		042B896329A5363100CFE839 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D349E429A5396000D5B1A6 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../SDL2-2.26.3/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
+		04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_uikit_main.c; sourceTree = "<group>"; };
+		04D34A1129A53C3100D5B1A6 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		04D34A1229A53C3100D5B1A6 /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		04D34A1629A53DA900D5B1A6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,15 +136,17 @@
 		042B894329A5363000CFE839 = {
 			isa = PBXGroup;
 			children = (
+				04D349E429A5396000D5B1A6 /* SDL.xcodeproj */,
 				042B894E29A5363000CFE839 /* AvP-iOS */,
 				042B894D29A5363000CFE839 /* Products */,
+				04D34A0829A53B2A00D5B1A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		042B894D29A5363000CFE839 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				042B894C29A5363000CFE839 /* AvP-iOS.app */,
+				042B894C29A5363000CFE839 /* AvP Classic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,20 +154,39 @@
 		042B894E29A5363000CFE839 /* AvP-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				042B894F29A5363000CFE839 /* AppDelegate.h */,
-				042B895029A5363000CFE839 /* AppDelegate.m */,
-				042B895229A5363000CFE839 /* Renderer.h */,
-				042B895329A5363000CFE839 /* Renderer.m */,
-				042B895529A5363000CFE839 /* GameViewController.h */,
-				042B895629A5363000CFE839 /* GameViewController.m */,
-				042B895829A5363000CFE839 /* Shaders.metal */,
-				042B895A29A5363000CFE839 /* ShaderTypes.h */,
-				042B895B29A5363000CFE839 /* Main.storyboard */,
 				042B895E29A5363100CFE839 /* Assets.xcassets */,
+				04D34A1229A53C3100D5B1A6 /* common.c */,
+				04D34A1129A53C3100D5B1A6 /* common.h */,
+				04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.c */,
 				042B896029A5363100CFE839 /* LaunchScreen.storyboard */,
-				042B896329A5363100CFE839 /* main.m */,
+				04D34A1629A53DA900D5B1A6 /* main.c */,
 			);
 			path = "AvP-iOS";
+			sourceTree = "<group>";
+		};
+		04D349E529A5396000D5B1A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D349F329A5396000D5B1A6 /* SDL2.framework */,
+				04D349F529A5396000D5B1A6 /* SDL2.framework */,
+				04D349F729A5396000D5B1A6 /* SDL2.framework */,
+				04D349F929A5396000D5B1A6 /* SDL2.framework */,
+				04D349FB29A5396000D5B1A6 /* libSDL2.a */,
+				04D349FD29A5396000D5B1A6 /* libSDL2.a */,
+				04D349FF29A5396000D5B1A6 /* libSDL2.a */,
+				04D34A0129A5396000D5B1A6 /* libSDL2.dylib */,
+				04D34A0329A5396000D5B1A6 /* libSDL2.dylib */,
+				04D34A0529A5396000D5B1A6 /* libSDL2.dylib */,
+				04D34A0729A5396000D5B1A6 /* SDL2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D34A0829A53B2A00D5B1A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +199,7 @@
 				042B894829A5363000CFE839 /* Sources */,
 				042B894929A5363000CFE839 /* Frameworks */,
 				042B894A29A5363000CFE839 /* Resources */,
+				04D34A0C29A53B4300D5B1A6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,7 +207,7 @@
 			);
 			name = "AvP-iOS";
 			productName = "AvP-iOS";
-			productReference = 042B894C29A5363000CFE839 /* AvP-iOS.app */;
+			productReference = 042B894C29A5363000CFE839 /* AvP Classic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,12 +235,98 @@
 			mainGroup = 042B894329A5363000CFE839;
 			productRefGroup = 042B894D29A5363000CFE839 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04D349E529A5396000D5B1A6 /* Products */;
+					ProjectRef = 04D349E429A5396000D5B1A6 /* SDL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				042B894B29A5363000CFE839 /* AvP-iOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04D349F329A5396000D5B1A6 /* SDL2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL2.framework;
+			remoteRef = 04D349F229A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D349F529A5396000D5B1A6 /* SDL2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL2.framework;
+			remoteRef = 04D349F429A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D349F729A5396000D5B1A6 /* SDL2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL2.framework;
+			remoteRef = 04D349F629A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D349F929A5396000D5B1A6 /* SDL2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDL2.framework;
+			remoteRef = 04D349F829A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D349FB29A5396000D5B1A6 /* libSDL2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2.a;
+			remoteRef = 04D349FA29A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D349FD29A5396000D5B1A6 /* libSDL2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2.a;
+			remoteRef = 04D349FC29A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D349FF29A5396000D5B1A6 /* libSDL2.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDL2.a;
+			remoteRef = 04D349FE29A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D34A0129A5396000D5B1A6 /* libSDL2.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libSDL2.dylib;
+			remoteRef = 04D34A0029A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D34A0329A5396000D5B1A6 /* libSDL2.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libSDL2.dylib;
+			remoteRef = 04D34A0229A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D34A0529A5396000D5B1A6 /* libSDL2.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libSDL2.dylib;
+			remoteRef = 04D34A0429A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04D34A0729A5396000D5B1A6 /* SDL2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SDL2;
+			remoteRef = 04D34A0629A5396000D5B1A6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		042B894A29A5363000CFE839 /* Resources */ = {
@@ -138,7 +335,6 @@
 			files = (
 				042B896229A5363100CFE839 /* LaunchScreen.storyboard in Resources */,
 				042B895F29A5363100CFE839 /* Assets.xcassets in Resources */,
-				042B895D29A5363000CFE839 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,25 +345,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042B896429A5363100CFE839 /* main.m in Sources */,
-				042B895929A5363000CFE839 /* Shaders.metal in Sources */,
-				042B895429A5363000CFE839 /* Renderer.m in Sources */,
-				042B895729A5363000CFE839 /* GameViewController.m in Sources */,
-				042B895129A5363000CFE839 /* AppDelegate.m in Sources */,
+				04D34A1329A53C3100D5B1A6 /* common.c in Sources */,
+				04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.c in Sources */,
+				04D34A1729A53DA900D5B1A6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		042B895B29A5363000CFE839 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				042B895C29A5363000CFE839 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		042B896029A5363100CFE839 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -229,6 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../SDL2-2.26.3/include\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -281,6 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/../SDL2-2.26.3/include\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -300,7 +488,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -311,7 +498,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartelephantapps.AvP-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AvP Classic";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -328,7 +515,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,7 +525,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.smartelephantapps.AvP-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "AvP Classic";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
