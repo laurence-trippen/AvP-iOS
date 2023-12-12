@@ -11,6 +11,7 @@
 #include <OpenGLES/ES2/glext.h>
 
 #include "SDL.h"
+#include "SDL_opengles2.h"
 
 int HandleAppEvents(void *userdata, SDL_Event *event)
 {

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		042B895F29A5363100CFE839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B895E29A5363100CFE839 /* Assets.xcassets */; };
 		042B896229A5363100CFE839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B896029A5363100CFE839 /* LaunchScreen.storyboard */; };
+		0472618C2B284ECA00466A57 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047261802B284ECA00466A57 /* OpenAL.framework */; };
 		04D34A0B29A53B4300D5B1A6 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F929A5396000D5B1A6 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */; };
 		04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F529A5396000D5B1A6 /* SDL2.framework */; };
@@ -33,7 +34,6 @@
 		04D34C2329A54F9400D5B1A6 /* kshape.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4529A54F9400D5B1A6 /* kshape.c */; };
 		04D34C2429A54F9400D5B1A6 /* morph.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4629A54F9400D5B1A6 /* morph.c */; };
 		04D34C2529A54F9400D5B1A6 /* winapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4829A54F9400D5B1A6 /* winapi.c */; };
-		04D34C2629A54F9400D5B1A6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4929A54F9400D5B1A6 /* main.c */; };
 		04D34C2729A54F9400D5B1A6 /* bink.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4A29A54F9400D5B1A6 /* bink.c */; };
 		04D34C2829A54F9400D5B1A6 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4C29A54F9400D5B1A6 /* map.c */; };
 		04D34C2929A54F9400D5B1A6 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4D29A54F9400D5B1A6 /* net.c */; };
@@ -101,7 +101,6 @@
 		04D34C6729A54F9400D5B1A6 /* wrapstr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AD429A54F9400D5B1A6 /* wrapstr.cpp */; };
 		04D34C6829A54F9400D5B1A6 /* indexfnt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AD529A54F9400D5B1A6 /* indexfnt.cpp */; };
 		04D34C6929A54F9400D5B1A6 /* scstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AD629A54F9400D5B1A6 /* scstring.cpp */; };
-		04D34C6A29A54F9400D5B1A6 /* tallfont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AD829A54F9400D5B1A6 /* tallfont.cpp */; };
 		04D34C6B29A54F9400D5B1A6 /* coordstr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34ADB29A54F9400D5B1A6 /* coordstr.cpp */; };
 		04D34C6C29A54F9400D5B1A6 /* consbtch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34ADD29A54F9400D5B1A6 /* consbtch.cpp */; };
 		04D34C6D29A54F9400D5B1A6 /* trig666.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34ADE29A54F9400D5B1A6 /* trig666.cpp */; };
@@ -125,14 +124,12 @@
 		04D34C7F29A54F9400D5B1A6 /* bh_far.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0529A54F9400D5B1A6 /* bh_far.c */; };
 		04D34C8029A54F9400D5B1A6 /* gamevars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0729A54F9400D5B1A6 /* gamevars.cpp */; };
 		04D34C8129A54F9400D5B1A6 /* consolelog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0B29A54F9400D5B1A6 /* consolelog.cpp */; };
-		04D34C8229A54F9400D5B1A6 /* dplayext.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0D29A54F9400D5B1A6 /* dplayext.c */; };
 		04D34C8329A54F9400D5B1A6 /* avpreg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1029A54F9400D5B1A6 /* avpreg.cpp */; };
 		04D34C8429A54F9400D5B1A6 /* strachnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1329A54F9400D5B1A6 /* strachnk.cpp */; };
 		04D34C8529A54F9400D5B1A6 /* avpchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1429A54F9400D5B1A6 /* avpchunk.cpp */; };
 		04D34C8629A54F9400D5B1A6 /* gammacontrol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1629A54F9400D5B1A6 /* gammacontrol.cpp */; };
 		04D34C8729A54F9400D5B1A6 /* ffstdio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1729A54F9400D5B1A6 /* ffstdio.cpp */; };
 		04D34C8829A54F9400D5B1A6 /* modcmds.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1929A54F9400D5B1A6 /* modcmds.cpp */; };
-		04D34C8929A54F9400D5B1A6 /* avp_menugfx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1D29A54F9400D5B1A6 /* avp_menugfx.cpp */; };
 		04D34C8A29A54F9400D5B1A6 /* avp_mp_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1E29A54F9400D5B1A6 /* avp_mp_config.cpp */; };
 		04D34C8B29A54F9400D5B1A6 /* avp_envinfo.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2029A54F9400D5B1A6 /* avp_envinfo.c */; };
 		04D34C8C29A54F9400D5B1A6 /* avp_menudata.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2129A54F9400D5B1A6 /* avp_menudata.c */; };
@@ -142,7 +139,6 @@
 		04D34C9029A54F9400D5B1A6 /* langplat.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2B29A54F9400D5B1A6 /* langplat.c */; };
 		04D34C9129A54F9400D5B1A6 /* npcsetup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2C29A54F9400D5B1A6 /* npcsetup.cpp */; };
 		04D34C9229A54F9400D5B1A6 /* chtcodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2D29A54F9400D5B1A6 /* chtcodes.cpp */; };
-		04D34C9329A54F9400D5B1A6 /* pcmenus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2E29A54F9400D5B1A6 /* pcmenus.cpp */; };
 		04D34C9429A54F9400D5B1A6 /* pldghost.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B2F29A54F9400D5B1A6 /* pldghost.c */; };
 		04D34C9529A54F9400D5B1A6 /* hierplace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3129A54F9400D5B1A6 /* hierplace.cpp */; };
 		04D34C9629A54F9400D5B1A6 /* system.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3629A54F9400D5B1A6 /* system.c */; };
@@ -151,16 +147,12 @@
 		04D34C9929A54F9400D5B1A6 /* kzsort.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3A29A54F9400D5B1A6 /* kzsort.c */; };
 		04D34C9A29A54F9400D5B1A6 /* usr_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3B29A54F9400D5B1A6 /* usr_io.c */; };
 		04D34C9B29A54F9400D5B1A6 /* scrshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3C29A54F9400D5B1A6 /* scrshot.cpp */; };
-		04D34C9C29A54F9400D5B1A6 /* psndplat.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3E29A54F9400D5B1A6 /* psndplat.c */; };
 		04D34C9D29A54F9400D5B1A6 /* d3d_render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4129A54F9400D5B1A6 /* d3d_render.cpp */; };
-		04D34C9E29A54F9400D5B1A6 /* winmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4429A54F9400D5B1A6 /* winmain.c */; };
 		04D34C9F29A54F9400D5B1A6 /* pathchnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4529A54F9400D5B1A6 /* pathchnk.cpp */; };
 		04D34CA029A54F9400D5B1A6 /* ddplat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4829A54F9400D5B1A6 /* ddplat.cpp */; };
 		04D34CA129A54F9400D5B1A6 /* cheat.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4929A54F9400D5B1A6 /* cheat.c */; };
 		04D34CA229A54F9400D5B1A6 /* iofocus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4A29A54F9400D5B1A6 /* iofocus.cpp */; };
-		04D34CA329A54F9400D5B1A6 /* directplay.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4C29A54F9400D5B1A6 /* directplay.c */; };
 		04D34CA429A54F9400D5B1A6 /* jsndsup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4F29A54F9400D5B1A6 /* jsndsup.cpp */; };
-		04D34CA529A54F9400D5B1A6 /* dp_func.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B5229A54F9400D5B1A6 /* dp_func.c */; };
 		04D34CA629A54F9400D5B1A6 /* pldnet.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B5729A54F9400D5B1A6 /* pldnet.c */; };
 		04D34CA729A54F9400D5B1A6 /* ffread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B5829A54F9400D5B1A6 /* ffread.cpp */; };
 		04D34CA829A54F9400D5B1A6 /* platsup.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B5929A54F9400D5B1A6 /* platsup.c */; };
@@ -203,7 +195,6 @@
 		04D34CCD29A54F9400D5B1A6 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B9E29A54F9400D5B1A6 /* md5.c */; };
 		04D34CCE29A54F9400D5B1A6 /* sphere.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B9F29A54F9400D5B1A6 /* sphere.c */; };
 		04D34CCF29A54F9400D5B1A6 /* frustum.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BA029A54F9400D5B1A6 /* frustum.c */; };
-		04D34CD029A54F9400D5B1A6 /* mmx_math.asm in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BA229A54F9400D5B1A6 /* mmx_math.asm */; };
 		04D34CD129A54F9400D5B1A6 /* awiffld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BA329A54F9400D5B1A6 /* awiffld.cpp */; };
 		04D34CD229A54F9400D5B1A6 /* media.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BA429A54F9400D5B1A6 /* media.cpp */; };
 		04D34CD329A54F9400D5B1A6 /* ilbm_ext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BA529A54F9400D5B1A6 /* ilbm_ext.cpp */; };
@@ -223,8 +214,6 @@
 		04D34CE129A54F9400D5B1A6 /* wpchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC229A54F9400D5B1A6 /* wpchunk.cpp */; };
 		04D34CE229A54F9400D5B1A6 /* animchnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC429A54F9400D5B1A6 /* animchnk.cpp */; };
 		04D34CE329A54F9400D5B1A6 /* chnkload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC629A54F9400D5B1A6 /* chnkload.cpp */; };
-		04D34CE429A54F9400D5B1A6 /* di_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC729A54F9400D5B1A6 /* di_func.cpp */; };
-		04D34CE529A54F9400D5B1A6 /* win_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BCB29A54F9400D5B1A6 /* win_func.cpp */; };
 		04D34CE629A54F9400D5B1A6 /* texio.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BCC29A54F9400D5B1A6 /* texio.c */; };
 		04D34CE729A54F9400D5B1A6 /* debuglog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BCD29A54F9400D5B1A6 /* debuglog.cpp */; };
 		04D34CE829A54F9400D5B1A6 /* fail.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BCE29A54F9400D5B1A6 /* fail.c */; };
@@ -240,8 +229,6 @@
 		04D34CF229A54F9400D5B1A6 /* shpchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDC29A54F9400D5B1A6 /* shpchunk.cpp */; };
 		04D34CF329A54F9400D5B1A6 /* d3_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDD29A54F9400D5B1A6 /* d3_func.cpp */; };
 		04D34CF429A54F9400D5B1A6 /* sndchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDF29A54F9400D5B1A6 /* sndchunk.cpp */; };
-		04D34CF529A54F9400D5B1A6 /* videomodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BE129A54F9400D5B1A6 /* videomodes.cpp */; };
-		04D34CF629A54F9400D5B1A6 /* cd_player.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BEB29A54F9400D5B1A6 /* cd_player.c */; };
 		04D34CF729A54F9400D5B1A6 /* alt_tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BEC29A54F9400D5B1A6 /* alt_tab.cpp */; };
 		04D34CF829A54F9400D5B1A6 /* txioctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BED29A54F9400D5B1A6 /* txioctrl.cpp */; };
 		04D34CF929A54F9400D5B1A6 /* huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BF329A54F9400D5B1A6 /* huffman.cpp */; };
@@ -358,6 +345,8 @@
 		042B894C29A5363000CFE839 /* AvP Classic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AvP Classic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		042B895E29A5363100CFE839 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042B896129A5363100CFE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047261662B282B7600466A57 /* test_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_main.h; sourceTree = "<group>"; };
+		047261802B284ECA00466A57 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		04D349E429A5396000D5B1A6 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../SDL2-2.26.3/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
 		04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDL_uikit_main.cpp; sourceTree = "<group>"; };
 		04D34A1B29A54B1500D5B1A6 /* test_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_main.cpp; sourceTree = "<group>"; };
@@ -857,6 +846,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0472618C2B284ECA00466A57 /* OpenAL.framework in Frameworks */,
 				04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */,
 				04D34A1F29A54CC700D5B1A6 /* OpenGLES.framework in Frameworks */,
 			);
@@ -890,6 +880,7 @@
 				042B895E29A5363100CFE839 /* Assets.xcassets */,
 				04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */,
 				042B896029A5363100CFE839 /* LaunchScreen.storyboard */,
+				047261662B282B7600466A57 /* test_main.h */,
 				04D34A1B29A54B1500D5B1A6 /* test_main.cpp */,
 			);
 			path = "AvP-iOS";
@@ -916,6 +907,7 @@
 		04D34A0829A53B2A00D5B1A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				047261802B284ECA00466A57 /* OpenAL.framework */,
 				04D34A1D29A54CC400D5B1A6 /* OpenGLES.framework */,
 			);
 			name = Frameworks;
@@ -1661,7 +1653,6 @@
 				04D34C5329A54F9400D5B1A6 /* secstats.c in Sources */,
 				04D34C5929A54F9400D5B1A6 /* movement.c in Sources */,
 				04D34C8129A54F9400D5B1A6 /* consolelog.cpp in Sources */,
-				04D34CA529A54F9400D5B1A6 /* dp_func.c in Sources */,
 				04D34C4429A54F9400D5B1A6 /* bh_corpse.c in Sources */,
 				04D34C7429A54F9400D5B1A6 /* bh_near.c in Sources */,
 				04D34CF729A54F9400D5B1A6 /* alt_tab.cpp in Sources */,
@@ -1698,7 +1689,6 @@
 				04D34C1C29A54F9400D5B1A6 /* files.c in Sources */,
 				04D34C9529A54F9400D5B1A6 /* hierplace.cpp in Sources */,
 				04D34CCE29A54F9400D5B1A6 /* sphere.c in Sources */,
-				04D34C6A29A54F9400D5B1A6 /* tallfont.cpp in Sources */,
 				04D34C5829A54F9400D5B1A6 /* bh_types.c in Sources */,
 				04D34CA929A54F9400D5B1A6 /* d3d_hud.cpp in Sources */,
 				04D34CB729A54F9400D5B1A6 /* conssym.cpp in Sources */,
@@ -1714,11 +1704,9 @@
 				04D34CBB29A54F9400D5B1A6 /* bh_marin.c in Sources */,
 				04D34CF029A54F9400D5B1A6 /* chnktexi.cpp in Sources */,
 				04D34CFC29A54F9400D5B1A6 /* bmpnames.cpp in Sources */,
-				04D34CF529A54F9400D5B1A6 /* videomodes.cpp in Sources */,
 				04D34CC829A54F9400D5B1A6 /* bh_gener.c in Sources */,
 				04D34CC729A54F9400D5B1A6 /* paintball.c in Sources */,
 				04D34CDE29A54F9400D5B1A6 /* dxlog.c in Sources */,
-				04D34C9329A54F9400D5B1A6 /* pcmenus.cpp in Sources */,
 				04D34CE229A54F9400D5B1A6 /* animchnk.cpp in Sources */,
 				04D34A1C29A54B1500D5B1A6 /* test_main.cpp in Sources */,
 				04D34C8029A54F9400D5B1A6 /* gamevars.cpp in Sources */,
@@ -1727,7 +1715,6 @@
 				04D34CD229A54F9400D5B1A6 /* media.cpp in Sources */,
 				04D34C4629A54F9400D5B1A6 /* bh_debri.c in Sources */,
 				04D34CB629A54F9400D5B1A6 /* gadget.cpp in Sources */,
-				04D34C2629A54F9400D5B1A6 /* main.c in Sources */,
 				04D34CAC29A54F9400D5B1A6 /* textin.cpp in Sources */,
 				04D34C4729A54F9400D5B1A6 /* bh_spcl.c in Sources */,
 				04D34CA829A54F9400D5B1A6 /* platsup.c in Sources */,
@@ -1748,14 +1735,11 @@
 				04D34C9429A54F9400D5B1A6 /* pldghost.c in Sources */,
 				04D34C5F29A54F9400D5B1A6 /* r2base.cpp in Sources */,
 				04D34C8E29A54F9400D5B1A6 /* avp_menus.c in Sources */,
-				04D34CE529A54F9400D5B1A6 /* win_func.cpp in Sources */,
 				04D34C3529A54F9400D5B1A6 /* sfx.c in Sources */,
 				04D34C4329A54F9400D5B1A6 /* pheromon.c in Sources */,
-				04D34C9E29A54F9400D5B1A6 /* winmain.c in Sources */,
 				04D34CD129A54F9400D5B1A6 /* awiffld.cpp in Sources */,
 				04D34C5E29A54F9400D5B1A6 /* consbind.cpp in Sources */,
 				04D34C9B29A54F9400D5B1A6 /* scrshot.cpp in Sources */,
-				04D34CD029A54F9400D5B1A6 /* mmx_math.asm in Sources */,
 				04D34C4B29A54F9400D5B1A6 /* mempool.c in Sources */,
 				04D34C1529A54F9400D5B1A6 /* maths.c in Sources */,
 				04D34C8629A54F9400D5B1A6 /* gammacontrol.cpp in Sources */,
@@ -1789,7 +1773,6 @@
 				04D34C3B29A54F9400D5B1A6 /* stratdef.c in Sources */,
 				04D34CDB29A54F9400D5B1A6 /* dd_func.cpp in Sources */,
 				04D34C5629A54F9400D5B1A6 /* bh_rubberduck.c in Sources */,
-				04D34C9C29A54F9400D5B1A6 /* psndplat.c in Sources */,
 				04D34C6529A54F9400D5B1A6 /* daemon.cpp in Sources */,
 				04D34CA129A54F9400D5B1A6 /* cheat.c in Sources */,
 				04D34CB529A54F9400D5B1A6 /* teletype.cpp in Sources */,
@@ -1810,7 +1793,6 @@
 				04D34CD529A54F9400D5B1A6 /* oechunk.cpp in Sources */,
 				04D34CF329A54F9400D5B1A6 /* d3_func.cpp in Sources */,
 				04D34C3829A54F9400D5B1A6 /* dynblock.c in Sources */,
-				04D34C8229A54F9400D5B1A6 /* dplayext.c in Sources */,
 				04D34CE829A54F9400D5B1A6 /* fail.c in Sources */,
 				04D34CDA29A54F9400D5B1A6 /* fragchnk.cpp in Sources */,
 				04D34C3129A54F9400D5B1A6 /* bh_binsw.c in Sources */,
@@ -1841,7 +1823,6 @@
 				04D34CCA29A54F9400D5B1A6 /* player.c in Sources */,
 				04D34C6729A54F9400D5B1A6 /* wrapstr.cpp in Sources */,
 				04D34C1E29A54F9400D5B1A6 /* vdb.c in Sources */,
-				04D34C8929A54F9400D5B1A6 /* avp_menugfx.cpp in Sources */,
 				04D34C7829A54F9400D5B1A6 /* los.c in Sources */,
 				04D34C9D29A54F9400D5B1A6 /* d3d_render.cpp in Sources */,
 				04D34CAA29A54F9400D5B1A6 /* endianio.c in Sources */,
@@ -1866,13 +1847,11 @@
 				04D34CA629A54F9400D5B1A6 /* pldnet.c in Sources */,
 				04D34C3729A54F9400D5B1A6 /* bh_queen.c in Sources */,
 				04D34C3229A54F9400D5B1A6 /* bh_ldoor.c in Sources */,
-				04D34CA329A54F9400D5B1A6 /* directplay.c in Sources */,
 				04D34CD429A54F9400D5B1A6 /* gsprchnk.cpp in Sources */,
 				04D34C3C29A54F9400D5B1A6 /* triggers.c in Sources */,
 				04D34C2B29A54F9400D5B1A6 /* avpview.c in Sources */,
 				04D34C7229A54F9400D5B1A6 /* hud.c in Sources */,
 				04D34CBE29A54F9400D5B1A6 /* detaillevels.c in Sources */,
-				04D34CE429A54F9400D5B1A6 /* di_func.cpp in Sources */,
 				04D34CEC29A54F9400D5B1A6 /* plat_shp.c in Sources */,
 				04D34CE029A54F9400D5B1A6 /* ltchunk.cpp in Sources */,
 				04D34CEB29A54F9400D5B1A6 /* chunkpal.cpp in Sources */,
@@ -1887,7 +1866,6 @@
 				04D34CE629A54F9400D5B1A6 /* texio.c in Sources */,
 				04D34C1829A54F9400D5B1A6 /* mem3dcpp.cpp in Sources */,
 				04D34C1B29A54F9400D5B1A6 /* stubs.c in Sources */,
-				04D34CF629A54F9400D5B1A6 /* cd_player.c in Sources */,
 				04D34C2129A54F9400D5B1A6 /* fmv.c in Sources */,
 				04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.cpp in Sources */,
 			);
@@ -2033,8 +2011,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2061,8 +2038,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = metal;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

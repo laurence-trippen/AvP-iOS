@@ -7,8 +7,11 @@
 #include <AL/al.h>
 #include <AL/alc.h>
 #else
-#include "al.h"
-#include "alc.h"
+// #include "al.h"
+// #include "alc.h"
+// #include <OpenAL/OpenAL.h>
+#include <OpenAL/al.h>
+#include <OpenAL/alc.h>
 #endif
 
 #include "fixer.h"

@@ -5,8 +5,8 @@
 
 #include "bink.h"
 
-#include <AL/al.h>
-#include <AL/alc.h>
+#include <OpenAL/al.h>
+#include <OpenAL/alc.h>
 
 #include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"

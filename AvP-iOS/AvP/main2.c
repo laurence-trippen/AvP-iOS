@@ -34,12 +34,7 @@
 #include "avp_menus.h"
 #include "avp_mp_config.h"
 #include "npcsetup.h"
-
-// Commented out by Laurence Trippen
-// Because iOS devices has no CD-Player. :-)
-// The real reason is that cdplayer.h includes a win95 specific header
-// #include "cdplayer.h"
-
+#include "cdplayer.h"
 #include "hud.h"
 #include "player.h"
 #include "mempool.h"
