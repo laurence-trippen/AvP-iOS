@@ -1149,8 +1149,10 @@ static const char *usage_string =
 "      [-j | --nojoy]          Do not access the joystick\n"
 "      [-g | --withgl] [x]     Use [x] instead of /usr/lib/libGL.so.1 for OpenGL\n"
 ;
-         
-int main(int argc, char *argv[])
+
+// Disabled by Laurence Trippen via renaming because
+// this is the SDL 1.2 variant and not the SDL2 one.
+int disabled_by_lt_main(int argc, char *argv[])
 {			
 #if !defined(_MSC_VER)
 	int c;

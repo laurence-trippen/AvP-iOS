@@ -62,6 +62,7 @@ void iosRenderCallback(void* window)
   SDL_GL_SwapWindow((SDL_Window*)window);
 }
 
+/*
 int main(int argc, char *argv[])
 {
   // Register handler for iOS Lifecycle hooks
@@ -112,3 +113,4 @@ int main(int argc, char *argv[])
   
   return 0;
 }
+*/

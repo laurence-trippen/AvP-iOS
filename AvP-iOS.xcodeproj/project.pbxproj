@@ -12,7 +12,7 @@
 		04D34A0B29A53B4300D5B1A6 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F929A5396000D5B1A6 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */; };
 		04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F529A5396000D5B1A6 /* SDL2.framework */; };
-		04D34A1C29A54B1500D5B1A6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A1B29A54B1500D5B1A6 /* main.cpp */; };
+		04D34A1C29A54B1500D5B1A6 /* test_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A1B29A54B1500D5B1A6 /* test_main.cpp */; };
 		04D34A1F29A54CC700D5B1A6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D34A1D29A54CC400D5B1A6 /* OpenGLES.framework */; };
 		04D34C1329A54F9400D5B1A6 /* shpanim.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A2229A54F9400D5B1A6 /* shpanim.c */; };
 		04D34C1429A54F9400D5B1A6 /* mem3dc.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A2529A54F9400D5B1A6 /* mem3dc.c */; };
@@ -258,7 +258,6 @@
 		04D34D0429A54F9400D5B1A6 /* envchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34C0A29A54F9400D5B1A6 /* envchunk.cpp */; };
 		04D34D0529A54F9400D5B1A6 /* our_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34C0D29A54F9400D5B1A6 /* our_mem.c */; };
 		04D34D0629A54F9400D5B1A6 /* cdplayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34C0F29A54F9400D5B1A6 /* cdplayer.c */; };
-		04D34D0729A54F9400D5B1A6 /* winfiles.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34C1129A54F9400D5B1A6 /* winfiles.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -361,7 +360,7 @@
 		042B896129A5363100CFE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D349E429A5396000D5B1A6 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../SDL2-2.26.3/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
 		04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDL_uikit_main.cpp; sourceTree = "<group>"; };
-		04D34A1B29A54B1500D5B1A6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		04D34A1B29A54B1500D5B1A6 /* test_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_main.cpp; sourceTree = "<group>"; };
 		04D34A1D29A54CC400D5B1A6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		04D34A2229A54F9400D5B1A6 /* shpanim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shpanim.c; sourceTree = "<group>"; };
 		04D34A2329A54F9400D5B1A6 /* bink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bink.h; sourceTree = "<group>"; };
@@ -891,7 +890,7 @@
 				042B895E29A5363100CFE839 /* Assets.xcassets */,
 				04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */,
 				042B896029A5363100CFE839 /* LaunchScreen.storyboard */,
-				04D34A1B29A54B1500D5B1A6 /* main.cpp */,
+				04D34A1B29A54B1500D5B1A6 /* test_main.cpp */,
 			);
 			path = "AvP-iOS";
 			sourceTree = "<group>";
@@ -1721,7 +1720,7 @@
 				04D34CDE29A54F9400D5B1A6 /* dxlog.c in Sources */,
 				04D34C9329A54F9400D5B1A6 /* pcmenus.cpp in Sources */,
 				04D34CE229A54F9400D5B1A6 /* animchnk.cpp in Sources */,
-				04D34A1C29A54B1500D5B1A6 /* main.cpp in Sources */,
+				04D34A1C29A54B1500D5B1A6 /* test_main.cpp in Sources */,
 				04D34C8029A54F9400D5B1A6 /* gamevars.cpp in Sources */,
 				04D34CD829A54F9400D5B1A6 /* iff_ilbm.cpp in Sources */,
 				04D34CA729A54F9400D5B1A6 /* ffread.cpp in Sources */,
@@ -1858,7 +1857,6 @@
 				04D34C9029A54F9400D5B1A6 /* langplat.c in Sources */,
 				04D34CF429A54F9400D5B1A6 /* sndchunk.cpp in Sources */,
 				04D34CB429A54F9400D5B1A6 /* ahudgadg.cpp in Sources */,
-				04D34D0729A54F9400D5B1A6 /* winfiles.c in Sources */,
 				04D34C5529A54F9400D5B1A6 /* lighting.c in Sources */,
 				04D34C8F29A54F9400D5B1A6 /* avp_intro.cpp in Sources */,
 				04D34C7629A54F9400D5B1A6 /* bh_swdor.c in Sources */,
@@ -2029,6 +2027,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34HCC6XWLW;
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = "/AvP-iOS/AvP/win95/*";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -2056,6 +2055,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34HCC6XWLW;
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = "/AvP-iOS/AvP/win95/*";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
