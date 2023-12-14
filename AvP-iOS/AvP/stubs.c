@@ -109,7 +109,9 @@ void ReloadImageIntoD3DImmediateSurface(IMAGEHEADER* iheader)
 int NumberOfLandscapePolygons;
 int FMVParticleColour;
 int WireFrameMode;
-int WaterFallBase;
+
+// LT TODO: Duplicate symbol in opengl.c
+// int WaterFallBase;
 
 void InitDrawTest()
 {

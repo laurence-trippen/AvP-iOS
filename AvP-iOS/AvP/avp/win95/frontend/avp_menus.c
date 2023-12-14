@@ -37,10 +37,11 @@
 #include <sys/stat.h>
 
 int SelectDirectDrawObject(void *pGUID);
-                    
-extern void StartMenuBackgroundBink(void);
-extern int PlayMenuBackgroundBink(void);
-extern void EndMenuBackgroundBink(void);
+   
+// LT TODO: Fix FMVs later
+// extern void StartMenuBackgroundBink(void);
+// extern int PlayMenuBackgroundBink(void);
+// extern void EndMenuBackgroundBink(void);
 
 
 /* KJL 11:22:37 23/06/98 - Hopefully these will be the final menus! */
@@ -361,7 +362,10 @@ int AvP_MainMenus_Deinit(void) {
 	TimeStampedMessage("ready to exit menus");
 	
 	EndMenuMusic();
-	EndMenuBackgroundBink();
+  
+  // LT TODO: Fix FMVs later
+	// EndMenuBackgroundBink();
+  
 	TimeStampedMessage("after EndMenuMusic");
 
 	#if PREDATOR_DEMO||MARINE_DEMO||ALIEN_DEMO
@@ -512,7 +516,10 @@ int AvP_MainMenus(void)
 	TimeStampedMessage("ready to exit menus");
 	
 	EndMenuMusic();
-	EndMenuBackgroundBink();
+  
+  // LT TODO: Fix FMVs later
+	// EndMenuBackgroundBink();
+  
 	TimeStampedMessage("after EndMenuMusic");
 
 	#if PREDATOR_DEMO||MARINE_DEMO||ALIEN_DEMO
@@ -544,7 +551,9 @@ void HandlePostGameFMVs(void)
 				ClearScreenToBlack();
 				FlipBuffers();
 				ClearScreenToBlack();
-				PlayBinkedFMV("FMVs/marineoutro.bik", 127);
+        
+        // LT TODO: Fix FMVs
+				// PlayBinkedFMV("FMVs/marineoutro.bik", 127);
 			}
 			break;
 		}
@@ -555,7 +564,9 @@ void HandlePostGameFMVs(void)
 				ClearScreenToBlack();
 				FlipBuffers();
 				ClearScreenToBlack();
-				PlayBinkedFMV("FMVs/alienoutro.bik", 127);
+        
+        // LT TODO: Fix FMVs
+				// PlayBinkedFMV("FMVs/alienoutro.bik", 127);
 			}
 			break;
 		}
@@ -566,7 +577,9 @@ void HandlePostGameFMVs(void)
 				ClearScreenToBlack();
 				FlipBuffers();
 				ClearScreenToBlack();
-				PlayBinkedFMV("FMVs/predatoroutro.bik", 127);
+				
+        // LT TODO: Fix FMVs
+        // PlayBinkedFMV("FMVs/predatoroutro.bik", 127);
 			}
 			break;
 		}
@@ -582,21 +595,27 @@ void HandlePreGameFMVs(void)
 			ClearScreenToBlack();
 			FlipBuffers();
 			ClearScreenToBlack();
-			PlayBinkedFMV("FMVs/marineintro.bik", 127);
+      
+      // LT TODO: Fix FMVs
+			// PlayBinkedFMV("FMVs/marineintro.bik", 127);
 		}
 		else if (!stricmp("temple", LevelName))
 		{
 			ClearScreenToBlack();
 			FlipBuffers();
 			ClearScreenToBlack();
-			PlayBinkedFMV("FMVs/alienintro.bik", 127);
+      
+      // LT TODO: Fix FMVs
+			// PlayBinkedFMV("FMVs/alienintro.bik", 127);
 		}
 		else if (!stricmp("fall", LevelName))
 		{
 			ClearScreenToBlack();
 			FlipBuffers();
 			ClearScreenToBlack();
-			PlayBinkedFMV("FMVs/predatorintro.bik", 127);
+      
+      // LT TODO: Fix FMVs
+			// PlayBinkedFMV("FMVs/predatorintro.bik", 127);
 		}
 	}
 }
@@ -4912,7 +4931,9 @@ static void InitMainMenusBackdrop(void)
 		CloudTable[x][y]=(FastRandom()&32767)+32768;
 	}
 	#endif
-	StartMenuBackgroundBink();
+  
+  // LT TODO: Fix FMVs later
+	// StartMenuBackgroundBink();
 }
 
 
@@ -4920,10 +4941,13 @@ static void InitMainMenusBackdrop(void)
 extern void DrawMainMenusBackdrop(void)
 {
 	#if 1
+  // LT TODO: Fix FMVs later
+  /*
 	if (!PlayMenuBackgroundBink())
 	{
 		DrawAvPMenuGfx(AVPMENUGFX_BACKDROP,0,0,ONE_FIXED+1,AVPMENUFORMAT_LEFTJUSTIFIED);
 	}
+   */
 	#else
 	extern DDPIXELFORMAT DisplayPixelFormat;
 	extern unsigned char *ScreenBuffer;

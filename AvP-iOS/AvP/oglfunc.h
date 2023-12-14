@@ -7,6 +7,9 @@
 
 #include "SDL_version.h"
 
+// LT TODO: Check later if needed here
+#define USE_OPENGL_ES 1
+
 #if defined(USE_OPENGL_ES)
 #include "SDL_opengles2.h"
 

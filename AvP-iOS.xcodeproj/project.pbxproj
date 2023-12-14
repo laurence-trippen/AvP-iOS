@@ -22,7 +22,6 @@
 		04D34C1729A54F9400D5B1A6 /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A2B29A54F9400D5B1A6 /* object.c */; };
 		04D34C1829A54F9400D5B1A6 /* mem3dcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A2E29A54F9400D5B1A6 /* mem3dcpp.cpp */; };
 		04D34C1929A54F9400D5B1A6 /* mathline.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A2F29A54F9400D5B1A6 /* mathline.c */; };
-		04D34C1A29A54F9400D5B1A6 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A3229A54F9400D5B1A6 /* SDLMain.m */; };
 		04D34C1B29A54F9400D5B1A6 /* stubs.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A3329A54F9400D5B1A6 /* stubs.c */; };
 		04D34C1C29A54F9400D5B1A6 /* files.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A3529A54F9400D5B1A6 /* files.c */; };
 		04D34C1D29A54F9400D5B1A6 /* module.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A3829A54F9400D5B1A6 /* module.c */; };
@@ -34,7 +33,6 @@
 		04D34C2329A54F9400D5B1A6 /* kshape.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4529A54F9400D5B1A6 /* kshape.c */; };
 		04D34C2429A54F9400D5B1A6 /* morph.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4629A54F9400D5B1A6 /* morph.c */; };
 		04D34C2529A54F9400D5B1A6 /* winapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4829A54F9400D5B1A6 /* winapi.c */; };
-		04D34C2729A54F9400D5B1A6 /* bink.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4A29A54F9400D5B1A6 /* bink.c */; };
 		04D34C2829A54F9400D5B1A6 /* map.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4C29A54F9400D5B1A6 /* map.c */; };
 		04D34C2929A54F9400D5B1A6 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4D29A54F9400D5B1A6 /* net.c */; };
 		04D34C2A29A54F9400D5B1A6 /* opengl.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A4E29A54F9400D5B1A6 /* opengl.c */; };
@@ -88,7 +86,6 @@
 		04D34C5A29A54F9400D5B1A6 /* pvisible.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AB029A54F9400D5B1A6 /* pvisible.c */; };
 		04D34C5B29A54F9400D5B1A6 /* bh_pargen.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AB129A54F9400D5B1A6 /* bh_pargen.c */; };
 		04D34C5C29A54F9400D5B1A6 /* bh_light.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AB229A54F9400D5B1A6 /* bh_light.c */; };
-		04D34C5D29A54F9400D5B1A6 /* bh_paq.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AB729A54F9400D5B1A6 /* bh_paq.c */; };
 		04D34C5E29A54F9400D5B1A6 /* consbind.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34ABE29A54F9400D5B1A6 /* consbind.cpp */; };
 		04D34C5F29A54F9400D5B1A6 /* r2base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34ABF29A54F9400D5B1A6 /* r2base.cpp */; };
 		04D34C6029A54F9400D5B1A6 /* r2pos666.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34AC129A54F9400D5B1A6 /* r2pos666.cpp */; };
@@ -124,7 +121,6 @@
 		04D34C7F29A54F9400D5B1A6 /* bh_far.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0529A54F9400D5B1A6 /* bh_far.c */; };
 		04D34C8029A54F9400D5B1A6 /* gamevars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0729A54F9400D5B1A6 /* gamevars.cpp */; };
 		04D34C8129A54F9400D5B1A6 /* consolelog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B0B29A54F9400D5B1A6 /* consolelog.cpp */; };
-		04D34C8329A54F9400D5B1A6 /* avpreg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1029A54F9400D5B1A6 /* avpreg.cpp */; };
 		04D34C8429A54F9400D5B1A6 /* strachnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1329A54F9400D5B1A6 /* strachnk.cpp */; };
 		04D34C8529A54F9400D5B1A6 /* avpchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1429A54F9400D5B1A6 /* avpchunk.cpp */; };
 		04D34C8629A54F9400D5B1A6 /* gammacontrol.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B1629A54F9400D5B1A6 /* gammacontrol.cpp */; };
@@ -147,7 +143,6 @@
 		04D34C9929A54F9400D5B1A6 /* kzsort.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3A29A54F9400D5B1A6 /* kzsort.c */; };
 		04D34C9A29A54F9400D5B1A6 /* usr_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3B29A54F9400D5B1A6 /* usr_io.c */; };
 		04D34C9B29A54F9400D5B1A6 /* scrshot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B3C29A54F9400D5B1A6 /* scrshot.cpp */; };
-		04D34C9D29A54F9400D5B1A6 /* d3d_render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4129A54F9400D5B1A6 /* d3d_render.cpp */; };
 		04D34C9F29A54F9400D5B1A6 /* pathchnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4529A54F9400D5B1A6 /* pathchnk.cpp */; };
 		04D34CA029A54F9400D5B1A6 /* ddplat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4829A54F9400D5B1A6 /* ddplat.cpp */; };
 		04D34CA129A54F9400D5B1A6 /* cheat.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34B4929A54F9400D5B1A6 /* cheat.c */; };
@@ -205,10 +200,8 @@
 		04D34CD829A54F9400D5B1A6 /* iff_ilbm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BB029A54F9400D5B1A6 /* iff_ilbm.cpp */; };
 		04D34CD929A54F9400D5B1A6 /* awbmpld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BB229A54F9400D5B1A6 /* awbmpld.cpp */; };
 		04D34CDA29A54F9400D5B1A6 /* fragchnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BB329A54F9400D5B1A6 /* fragchnk.cpp */; };
-		04D34CDB29A54F9400D5B1A6 /* dd_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BB729A54F9400D5B1A6 /* dd_func.cpp */; };
 		04D34CDC29A54F9400D5B1A6 /* enumchnk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BB929A54F9400D5B1A6 /* enumchnk.cpp */; };
 		04D34CDD29A54F9400D5B1A6 /* sprchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BBD29A54F9400D5B1A6 /* sprchunk.cpp */; };
-		04D34CDE29A54F9400D5B1A6 /* dxlog.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BBF29A54F9400D5B1A6 /* dxlog.c */; };
 		04D34CDF29A54F9400D5B1A6 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC029A54F9400D5B1A6 /* io.c */; };
 		04D34CE029A54F9400D5B1A6 /* ltchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC129A54F9400D5B1A6 /* ltchunk.cpp */; };
 		04D34CE129A54F9400D5B1A6 /* wpchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BC229A54F9400D5B1A6 /* wpchunk.cpp */; };
@@ -227,9 +220,7 @@
 		04D34CF029A54F9400D5B1A6 /* chnktexi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BD729A54F9400D5B1A6 /* chnktexi.cpp */; };
 		04D34CF129A54F9400D5B1A6 /* dummyobjectchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDB29A54F9400D5B1A6 /* dummyobjectchunk.cpp */; };
 		04D34CF229A54F9400D5B1A6 /* shpchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDC29A54F9400D5B1A6 /* shpchunk.cpp */; };
-		04D34CF329A54F9400D5B1A6 /* d3_func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDD29A54F9400D5B1A6 /* d3_func.cpp */; };
 		04D34CF429A54F9400D5B1A6 /* sndchunk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BDF29A54F9400D5B1A6 /* sndchunk.cpp */; };
-		04D34CF729A54F9400D5B1A6 /* alt_tab.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BEC29A54F9400D5B1A6 /* alt_tab.cpp */; };
 		04D34CF829A54F9400D5B1A6 /* txioctrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BED29A54F9400D5B1A6 /* txioctrl.cpp */; };
 		04D34CF929A54F9400D5B1A6 /* huffman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BF329A54F9400D5B1A6 /* huffman.cpp */; };
 		04D34CFA29A54F9400D5B1A6 /* iff.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34BF429A54F9400D5B1A6 /* iff.cpp */; };
@@ -1646,7 +1637,6 @@
 				04D34CB929A54F9400D5B1A6 /* bh_selfdest.c in Sources */,
 				04D34C8529A54F9400D5B1A6 /* avpchunk.cpp in Sources */,
 				04D34C5A29A54F9400D5B1A6 /* pvisible.c in Sources */,
-				04D34C8329A54F9400D5B1A6 /* avpreg.cpp in Sources */,
 				04D34C2029A54F9400D5B1A6 /* menus.c in Sources */,
 				04D34CF229A54F9400D5B1A6 /* shpchunk.cpp in Sources */,
 				04D34C1629A54F9400D5B1A6 /* tables.c in Sources */,
@@ -1655,7 +1645,6 @@
 				04D34C8129A54F9400D5B1A6 /* consolelog.cpp in Sources */,
 				04D34C4429A54F9400D5B1A6 /* bh_corpse.c in Sources */,
 				04D34C7429A54F9400D5B1A6 /* bh_near.c in Sources */,
-				04D34CF729A54F9400D5B1A6 /* alt_tab.cpp in Sources */,
 				04D34CFD29A54F9400D5B1A6 /* plspecfn.c in Sources */,
 				04D34C6C29A54F9400D5B1A6 /* consbtch.cpp in Sources */,
 				04D34D0429A54F9400D5B1A6 /* envchunk.cpp in Sources */,
@@ -1706,7 +1695,6 @@
 				04D34CFC29A54F9400D5B1A6 /* bmpnames.cpp in Sources */,
 				04D34CC829A54F9400D5B1A6 /* bh_gener.c in Sources */,
 				04D34CC729A54F9400D5B1A6 /* paintball.c in Sources */,
-				04D34CDE29A54F9400D5B1A6 /* dxlog.c in Sources */,
 				04D34CE229A54F9400D5B1A6 /* animchnk.cpp in Sources */,
 				04D34A1C29A54B1500D5B1A6 /* test_main.cpp in Sources */,
 				04D34C8029A54F9400D5B1A6 /* gamevars.cpp in Sources */,
@@ -1729,7 +1717,6 @@
 				04D34D0329A54F9400D5B1A6 /* mishchnk.cpp in Sources */,
 				04D34C7C29A54F9400D5B1A6 /* language.c in Sources */,
 				04D34CE129A54F9400D5B1A6 /* wpchunk.cpp in Sources */,
-				04D34C1A29A54F9400D5B1A6 /* SDLMain.m in Sources */,
 				04D34C7E29A54F9400D5B1A6 /* targeting.c in Sources */,
 				04D34C8C29A54F9400D5B1A6 /* avp_menudata.c in Sources */,
 				04D34C9429A54F9400D5B1A6 /* pldghost.c in Sources */,
@@ -1771,7 +1758,6 @@
 				04D34C2C29A54F9400D5B1A6 /* bonusabilities.c in Sources */,
 				04D34CA029A54F9400D5B1A6 /* ddplat.cpp in Sources */,
 				04D34C3B29A54F9400D5B1A6 /* stratdef.c in Sources */,
-				04D34CDB29A54F9400D5B1A6 /* dd_func.cpp in Sources */,
 				04D34C5629A54F9400D5B1A6 /* bh_rubberduck.c in Sources */,
 				04D34C6529A54F9400D5B1A6 /* daemon.cpp in Sources */,
 				04D34CA129A54F9400D5B1A6 /* cheat.c in Sources */,
@@ -1791,7 +1777,6 @@
 				04D34CB129A54F9400D5B1A6 /* conscmnd.cpp in Sources */,
 				04D34D0529A54F9400D5B1A6 /* our_mem.c in Sources */,
 				04D34CD529A54F9400D5B1A6 /* oechunk.cpp in Sources */,
-				04D34CF329A54F9400D5B1A6 /* d3_func.cpp in Sources */,
 				04D34C3829A54F9400D5B1A6 /* dynblock.c in Sources */,
 				04D34CE829A54F9400D5B1A6 /* fail.c in Sources */,
 				04D34CDA29A54F9400D5B1A6 /* fragchnk.cpp in Sources */,
@@ -1801,7 +1786,6 @@
 				04D34C9929A54F9400D5B1A6 /* kzsort.c in Sources */,
 				04D34CC429A54F9400D5B1A6 /* messagehistory.c in Sources */,
 				04D34C9629A54F9400D5B1A6 /* system.c in Sources */,
-				04D34C5D29A54F9400D5B1A6 /* bh_paq.c in Sources */,
 				04D34CEF29A54F9400D5B1A6 /* chunk.cpp in Sources */,
 				04D34C5C29A54F9400D5B1A6 /* bh_light.c in Sources */,
 				04D34C2329A54F9400D5B1A6 /* kshape.c in Sources */,
@@ -1809,7 +1793,6 @@
 				04D34CB329A54F9400D5B1A6 /* textexp.cpp in Sources */,
 				04D34C6E29A54F9400D5B1A6 /* bh_plachier.c in Sources */,
 				04D34C3629A54F9400D5B1A6 /* track.c in Sources */,
-				04D34C2729A54F9400D5B1A6 /* bink.c in Sources */,
 				04D34C8A29A54F9400D5B1A6 /* avp_mp_config.cpp in Sources */,
 				04D34CD729A54F9400D5B1A6 /* awpnmld.cpp in Sources */,
 				04D34D0229A54F9400D5B1A6 /* toolchnk.cpp in Sources */,
@@ -1824,7 +1807,6 @@
 				04D34C6729A54F9400D5B1A6 /* wrapstr.cpp in Sources */,
 				04D34C1E29A54F9400D5B1A6 /* vdb.c in Sources */,
 				04D34C7829A54F9400D5B1A6 /* los.c in Sources */,
-				04D34C9D29A54F9400D5B1A6 /* d3d_render.cpp in Sources */,
 				04D34CAA29A54F9400D5B1A6 /* endianio.c in Sources */,
 				04D34C7129A54F9400D5B1A6 /* game_statistics.c in Sources */,
 				04D34CDC29A54F9400D5B1A6 /* enumchnk.cpp in Sources */,
