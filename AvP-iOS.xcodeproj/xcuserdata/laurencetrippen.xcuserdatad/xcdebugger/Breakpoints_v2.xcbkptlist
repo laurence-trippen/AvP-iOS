@@ -20,5 +20,146 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29252969-0BFE-4C86-89B4-5613A0C9E25D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AvP-iOS/AvP/main2.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1670"
+            endingLineNumber = "1670"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AAEA1DB2-2EAA-4C59-8359-EB1968FF5E07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AvP-iOS/AvP/main2.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1628"
+            endingLineNumber = "1628"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0235747-680B-49C0-A99E-E4423D3CD6CC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AvP-iOS/AvP/main2.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1627"
+            endingLineNumber = "1627"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD2925F3-7E1D-4206-B819-7813D3385359"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AvP-iOS/AvP/files.c"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "729"
+            endingLineNumber = "729"
+            landmarkName = "InitGameDirectories(argv0)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "AD2925F3-7E1D-4206-B819-7813D3385359 - ce5778b181fd94e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InitGameDirectories"
+                  moduleName = "AvP Classic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurencetrippen/Dev/Xcode/AvP-iOS/AvP-iOS/AvP/files.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "692"
+                  endingLineNumber = "692"
+                  offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "AD2925F3-7E1D-4206-B819-7813D3385359 - ce5778b181fd94a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InitGameDirectories"
+                  moduleName = "AvP Classic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurencetrippen/Dev/Xcode/AvP-iOS/AvP-iOS/AvP/files.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "694"
+                  endingLineNumber = "694"
+                  offsetFromSymbolStart = "944">
+               </Location>
+               <Location
+                  uuid = "AD2925F3-7E1D-4206-B819-7813D3385359 - ce5778b181fd92d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InitGameDirectories"
+                  moduleName = "AvP Classic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurencetrippen/Dev/Xcode/AvP-iOS/AvP-iOS/AvP/files.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "709"
+                  endingLineNumber = "709"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "AD2925F3-7E1D-4206-B819-7813D3385359 - ce5778b181fd9020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InitGameDirectories"
+                  moduleName = "AvP Classic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurencetrippen/Dev/Xcode/AvP-iOS/AvP-iOS/AvP/files.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "721"
+                  endingLineNumber = "721"
+                  offsetFromSymbolStart = "948">
+               </Location>
+               <Location
+                  uuid = "AD2925F3-7E1D-4206-B819-7813D3385359 - ce5778b181fdaf38"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "InitGameDirectories"
+                  moduleName = "AvP Classic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/laurencetrippen/Dev/Xcode/AvP-iOS/AvP-iOS/AvP/files.c"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "729"
+                  endingLineNumber = "729"
+                  offsetFromSymbolStart = "948">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

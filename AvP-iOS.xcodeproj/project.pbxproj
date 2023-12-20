@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		042B895F29A5363100CFE839 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B895E29A5363100CFE839 /* Assets.xcassets */; };
-		042B896229A5363100CFE839 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B896029A5363100CFE839 /* LaunchScreen.storyboard */; };
 		0472618C2B284ECA00466A57 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047261802B284ECA00466A57 /* OpenAL.framework */; };
+		048CA0A52B336A74001D7DA3 /* fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 048CA0A12B336A74001D7DA3 /* fastfile */; };
+		048CA0A62B336A74001D7DA3 /* language.txt in Resources */ = {isa = PBXBuildFile; fileRef = 048CA0A22B336A74001D7DA3 /* language.txt */; };
+		048CA0A72B336A74001D7DA3 /* avp_rifs in Resources */ = {isa = PBXBuildFile; fileRef = 048CA0A32B336A74001D7DA3 /* avp_rifs */; };
+		048CA0A82B336A74001D7DA3 /* avp_huds in Resources */ = {isa = PBXBuildFile; fileRef = 048CA0A42B336A74001D7DA3 /* avp_huds */; };
 		04D34A0B29A53B4300D5B1A6 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F929A5396000D5B1A6 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04D34A0E29A53B7A00D5B1A6 /* SDL_uikit_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */; };
 		04D34A1529A53D3500D5B1A6 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D349F529A5396000D5B1A6 /* SDL2.framework */; };
@@ -338,6 +340,10 @@
 		042B896129A5363100CFE839 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047261662B282B7600466A57 /* test_main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test_main.h; sourceTree = "<group>"; };
 		047261802B284ECA00466A57 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		048CA0A12B336A74001D7DA3 /* fastfile */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fastfile; path = "../../../VSCode/avp-asset-verifier/og_files/fastfile"; sourceTree = "<group>"; };
+		048CA0A22B336A74001D7DA3 /* language.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = language.txt; path = "../../../VSCode/avp-asset-verifier/og_files/language.txt"; sourceTree = "<group>"; };
+		048CA0A32B336A74001D7DA3 /* avp_rifs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = avp_rifs; path = "../../../VSCode/avp-asset-verifier/og_files/avp_rifs"; sourceTree = "<group>"; };
+		048CA0A42B336A74001D7DA3 /* avp_huds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = avp_huds; path = "../../../VSCode/avp-asset-verifier/og_files/avp_huds"; sourceTree = "<group>"; };
 		04D349E429A5396000D5B1A6 /* SDL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDL.xcodeproj; path = "../SDL2-2.26.3/Xcode/SDL/SDL.xcodeproj"; sourceTree = "<group>"; };
 		04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDL_uikit_main.cpp; sourceTree = "<group>"; };
 		04D34A1B29A54B1500D5B1A6 /* test_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_main.cpp; sourceTree = "<group>"; };
@@ -867,6 +873,10 @@
 		042B894E29A5363000CFE839 /* AvP-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				048CA0A42B336A74001D7DA3 /* avp_huds */,
+				048CA0A32B336A74001D7DA3 /* avp_rifs */,
+				048CA0A12B336A74001D7DA3 /* fastfile */,
+				048CA0A22B336A74001D7DA3 /* language.txt */,
 				04D34A1829A5425900D5B1A6 /* AvP */,
 				042B895E29A5363100CFE839 /* Assets.xcassets */,
 				04D34A0D29A53B7A00D5B1A6 /* SDL_uikit_main.cpp */,
@@ -1615,8 +1625,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042B896229A5363100CFE839 /* LaunchScreen.storyboard in Resources */,
-				042B895F29A5363100CFE839 /* Assets.xcassets in Resources */,
+				048CA0A72B336A74001D7DA3 /* avp_rifs in Resources */,
+				048CA0A62B336A74001D7DA3 /* language.txt in Resources */,
+				048CA0A82B336A74001D7DA3 /* avp_huds in Resources */,
+				048CA0A52B336A74001D7DA3 /* fastfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

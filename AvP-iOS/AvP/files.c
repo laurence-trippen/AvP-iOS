@@ -545,8 +545,10 @@ static int try_game_directory(char *dir, char *file)
 	strncpy(tmppath, dir, PATH_MAX-32);
 	tmppath[PATH_MAX-32] = 0;
 	strcat(tmppath, file);
+  
+  int access_result = access(tmppath, R_OK);
 	
-	return access(tmppath, R_OK) == 0;
+	return access_result == 0;
 }
 
 /*
@@ -585,11 +587,46 @@ static int check_game_directory(char *dir)
 	return 1;
 }
 
+
+static void lt_files_debug(void)
+{
+  char cwd[PATH_MAX];
+  
+  if (getcwd(cwd, sizeof(cwd)) != NULL) {
+    printf("Current working dir: %s\n", cwd);
+  } else {
+    fprintf(stderr, "getcwd() error");
+  }
+  
+  // List all files of directory
+  
+  DIR *d;
+  struct dirent *dir;
+  d = opendir(".");
+  if (d) {
+    while ((dir = readdir(d)) != NULL) {
+      
+      char real_path_buffer[PATH_MAX];
+      char* res = realpath(dir->d_name, real_path_buffer);
+      
+      if (res) {
+        printf("%s\n", real_path_buffer);
+      }
+      
+      // printf("%s\n", dir->d_name);
+    }
+    closedir(d);
+  }
+}
+
+
 /*
   Game-specific initialization
  */
 void InitGameDirectories(char *argv0)
 {
+  lt_files_debug();
+  
 	extern char *SecondTex_Directory;
 	extern char *SecondSoundDir;
 	
